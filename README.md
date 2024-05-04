@@ -78,11 +78,11 @@ Present a visualization showcasing the top 5 cities based on sales, allowing use
 
 #### Sales By Product and Comparison with last year’s Sales.
 
-![GitHub Logo](https://github.com/anujjPanwar/Power-BI-Sales-dashboard-/blob/main/image%20of%20sales%20of%20comprasion%20with%20pre.%20by%20channel.png)
+![GitHub Logo]()
 
 #### Sales By Month and Comparison with last year’s Sales.
 
-![GitHub Logo](https://github.com/anujjPanwar/Power-BI-Sales-dashboard-/blob/main/image%20of%20sales%20of%20comprasion%20with%20pre.%20by%20channel.png)
+![GitHub Logo](https://github.com/anujjPanwar/Power-BI-Sales-dashboard-/blob/main/Screenshot%20Sales%20and%20Sales%20PY%20by%20Monthly.png)
 
 
 #### Compare Profit by Channel with Previous Year: 

@@ -1,6 +1,6 @@
 # Power-BI-Sales-dashboard
 
-![GitHub Logo]()
+![GitHub Logo](https://github.com/anujjPanwar/Power-BI-Sales-dashboard-/blob/main/Screenshot%20Dashboard%202017%20-%202019.png)
 
 # Objective
 Our objective is to streamline the process of data collection, preparation, and cleaning to ensure the accuracy and consistency of our dataset. Subsequently, we aim to leverage data modeling techniques to establish meaningful relationships between various data sources, laying a robust foundation for our analysis.
@@ -10,6 +10,12 @@ As we progress, our focus will shift to harnessing the capabilities of Power BI 
 Moreover, we'll delve into advanced techniques such as implementing DAX calculations, building dynamic filters and slicers, and leveraging collaboration and sharing features within Power BI.
 
 By the conclusion of this project, our goal is to deliver a comprehensive Power BI Sales Dashboard that empowers our organization to make informed, data-driven decisions, optimize sales strategies, and ultimately drive business growth and success.
+
+
+[Click here to access the Power BI Service](https://app.powerbi.com/groups/me/reports/88309439-22fc-409a-9383-b429db5c0061/ReportSectionf284c540955942f08571?experience=power-bi&clientSideAuth=0)
+
+
+
 
 #### Table of Contents
 The Objective of the Sales Dashboard / Business Problem

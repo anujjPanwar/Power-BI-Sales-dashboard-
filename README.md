@@ -1,4 +1,7 @@
 # Power-BI-Sales-dashboard
+
+![GitHub Logo]()
+
 # Objective
 Our objective is to streamline the process of data collection, preparation, and cleaning to ensure the accuracy and consistency of our dataset. Subsequently, we aim to leverage data modeling techniques to establish meaningful relationships between various data sources, laying a robust foundation for our analysis.
 
@@ -78,7 +81,7 @@ Present a visualization showcasing the top 5 cities based on sales, allowing use
 
 #### Sales By Product and Comparison with last year’s Sales.
 
-![GitHub Logo]()
+![GitHub Logo](https://github.com/anujjPanwar/Power-BI-Sales-dashboard-/blob/main/Screenshot%20Sales%20and%20sales%20PY%20by%20Product%20Name.png)
 
 #### Sales By Month and Comparison with last year’s Sales.
 
@@ -101,3 +104,69 @@ Enable users to interact with the data by providing slicers for selecting specif
 
 ## 6. Implementing DAX Calculations
 - Use Data Analysis Expressions (DAX) to create calculated columns, measures, and tables for complex calculations and aggregations.
+
+// Measures Total Sales
+Sales = SUM(Sales_Data[Sales])
+
+// Measures Previous Year Total Sales
+Sales PY = CALCULATE([Sales], SAMEPERIODLASTYEAR(DateTable[Date]))
+
+// Difference Between Current Year Sales & Previous Year Sales
+Sales vs PY = [Sales] - [Sales PY]
+
+// Percentage Increase or Decrease in sales year on year (YOY%)
+Sales vs PY % = DIVIDE([Sales vs PY],[Sales],0)
+
+// Products Sold
+Products Sold = SUM(Sales_Data[Order Quantity])
+
+// Profit
+Profit = SUM(Sales_Data[Profit]) 
+
+// Profit Last Year
+Profit LY = CALCULATE([Profit], SAMEPERIODLASTYEAR(DateTable[Date]))
+
+// Profit Vs Last Year
+Profit Vs LY = [Profit] - [Profit LY]
+
+// Profit vs Last Year Percentage
+Profit vs LY % = [Profit Vs LY] / [Profit]
+
+// Profit Margin
+Profit Margin = DIVIDE([Profit],[Sales],0)
+
+// Total Cost
+Total Cost = SUM(Sales_Data[Total Cost]) 
+
+
+# Conclusion of Power BI Sales Dashboard Project
+
+### Year 2019 Analysis:
+
+1. **Sales Decline:**
+   - Sales experienced a significant decrease of more than 10% compared to the previous year.
+
+2. **Product Sales Decline:**
+   - All the top 7 products exhibited a drop in sales, indicating a broad decline across product lines.
+
+3. **Customer Impact:**
+   - Analysis revealed that sales were adversely affected by the behavior of 4 specific customers, contributing to the overall sales decline.
+
+4. **Profit Margin Insight:**
+   - Notably, the Export channel demonstrated a higher profit margin compared to other sales channels, presenting opportunities for further exploration and potentially focusing sales efforts.
+
+### Recommendations:
+Based on the conclusions drawn from the analysis, the following recommendations are suggested:
+
+1. **Targeted Customer Engagement:**
+   - Implement targeted strategies to address the concerns or behaviors of the identified customers impacting sales negatively.
+
+2. **Product Portfolio Evaluation:**
+   - Conduct a thorough evaluation of the product portfolio to identify opportunities for innovation, improvement, or marketing efforts to stimulate sales growth.
+
+3. **Channel Optimization:**
+   - Explore opportunities to leverage the higher profit margin observed in the Export channel by optimizing resources and strategies in alignment with market demand.
+
+By addressing these key insights and implementing strategic recommendations, the organization can mitigate the challenges identified in the analysis and drive future sales growth and profitability.
+
+

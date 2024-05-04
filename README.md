@@ -1,0 +1,88 @@
+# Power-BI-Sales-dashboard
+# Objective
+Our objective is to streamline the process of data collection, preparation, and cleaning to ensure the accuracy and consistency of our dataset. Subsequently, we aim to leverage data modeling techniques to establish meaningful relationships between various data sources, laying a robust foundation for our analysis.
+
+As we progress, our focus will shift to harnessing the capabilities of Power BI Desktop to create visually compelling reports that effectively communicate key metrics and trends. Through intuitive visualizations and interactive features, we'll craft charts, graphs, and tables that offer valuable insights into our business operations.
+
+Moreover, we'll delve into advanced techniques such as implementing DAX calculations, building dynamic filters and slicers, and leveraging collaboration and sharing features within Power BI.
+
+By the conclusion of this project, our goal is to deliver a comprehensive Power BI Sales Dashboard that empowers our organization to make informed, data-driven decisions, optimize sales strategies, and ultimately drive business growth and success.
+
+#### Table of Contents
+The Objective of the Sales Dashboard / Business Problem
+Steps to follow for an end-to-end Power BI Project
+1) Gather Data
+2) Power Querry – Data Extract, Transform & Load
+3) Create a Date Table
+4) Create Data Model in Power BI Desktop
+5) Develop Reports in Power BI Desktop
+6) Implementing DAX Calculations
+Conclusion of Power BI Sales Dashboard Project
+Download Power BI Project PBIX File & Excel Dataset
+
+## The Objective of the Sales Dashboard / Business Problem
+The objective of the report is to analyze and present comprehensive insights into sales, profit, orders, profit margin, and various comparisons. It aims to provide a clear understanding of key performance indicators and trends using Power BI. The report objectives can be summarized as follows:
+
+#### Calculate Profit: 
+Calculate and visualize the total profit achieved based on the sales data, providing insights into the financial performance.
+#### Analyze Orders: 
+Analyze the number of orders placed during the selected period, helping to identify sales patterns and order trends.
+#### Calculate Profit Margin: 
+Calculate and visualize the profit margin percentage, enabling users to assess the profitability of products or services.
+#### Compare Sales by Product with Previous Year: 
+Compare sales performance for each product between the selected period and the previous year, highlighting growth or decline in sales.
+#### Compare Sales by Months with Previous Year: 
+Compare sales performance across different months between the selected period and the previous year, identifying regions with significant changes.
+#### Display Top 5 Cities: 
+Present a visualization showcasing the top 5 cities based on sales, allowing users to quickly identify the most lucrative locations.
+
+# Steps to follow for an end-to-end Power BI Project
+## 1. Gather Data
+
+- Collect relevant data from various sources such as databases, spreadsheets, or web services.
+- Ensure data accuracy and relevance to the project objective.
+
+## 2. Power Query – Data Extract, Transform & Load (ETL)
+
+- Utilize Power Query Editor in Power BI for data cleaning and transformation.
+- Perform tasks such as removing duplicates, handling missing values, merging datasets, or creating calculated columns.
+
+## 3. Create a Date Table
+
+- Create a date table to facilitate the use of Data Analysis Expressions (DAX) time intelligence functions.
+- Ensure to turn off Auto Date/Time for new files in Power BI Options Setting to improve report performance.
+
+## 4. Create Data Model in Power BI Desktop
+
+- Design and create a data model representing relationships between different tables.
+- Establish proper relationships, define keys, and hierarchies if needed for accurate analysis and visualization.
+
+## 5. Develop Reports in Power BI Desktop
+
+- Use Power BI Desktop to create reports based on the data model.
+- Add visualizations such as charts, tables, and maps to effectively represent the data.
+- Apply filters, slicers, and drill-through functionalities for interactive user experience.
+
+### Report Background in PowerPoint
+
+- Create background visuals in PowerPoint.
+- Create slicers for Date, City, Product, and Channel.
+- Define DAX measures.
+- Create visuals for:
+  1. Sales By Product and Comparison with last year’s Sales.
+  2. Sales By Month and Comparison with last year’s Sales.
+  3. Sales of top 5 Cities.
+  4. Compare Profit by channel with Previous year’s Profit.
+  5. Sales By Customer and Comparison with last year’s Sales.
+  6. Create Cards for Sales, Profit, Profit Margin & Product Sold.
+
+## 6. Implementing DAX Calculations
+
+- Use Data Analysis Expressions (DAX) to create calculated columns, measures, and tables for complex calculations and aggregations.
+- Leverage the power of DAX to manipulate data within Power BI.
+#### Compare Profit by Channel with Previous Year: 
+Compare profit generated by each channel between the selected period and the previous year, indicating improvements or challenges in profitability.
+#### Analyze Sales by Customer and Compare with Previous Year: 
+Analyze sales data by customer, highlighting the performance of individual customers and comparing it to the previous year.
+#### Create Slicers for Date, City, Product, and Channel: 
+Enable users to interact with the data by providing slicers for selecting specific dates, cities, products, and channels, allowing for dynamic filtering and personalized analysis.
